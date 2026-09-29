@@ -2,12 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
-  <ItemGroup>
-    <!--<Compile Include="Library\ExifIds.cs" Link="Library\ExifIds.cs" />
-    <Compile Include="Library\ExifIO.cs" Link="Library\ExifIO.cs" />
-    <Compile Include="Library\ExifReader.cs" Link="Library\ExifReader.cs" />
-    <Compile Include="Library\ExifTag.cs" Link="Library\ExifTag.cs" />
-    <Compile Include="Library\JpegInfo.cs" Link="Library\JpegInfo.cs" />-->
-  </ItemGroup>
 </Project>
