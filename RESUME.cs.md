@@ -14,3 +14,9 @@ wrapper `JpegExif.cs` nad `ExifReader` pro projekt `ImageMagickTool`. Repo dál
 obsahuje původní testovací appky `WP8TestApp` a `Win8TestApp` z upstreamu.
 Slouží jako náhrada za dřív jen zkopírovaný zdroják bez vazby na package
 manager.
+
+## Původ zdrojáků
+
+Staženo z GitHubu: **ano** — [igrali/portable-exif-lib](https://github.com/igrali/portable-exif-lib)
+
+- Zdroj určen podle: remote 'upstream' miri na cizi GitHub repo.
