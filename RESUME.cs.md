@@ -1,5 +1,5 @@
 ---
-schema_version: 4
+schema_version: 5
 type: library
 file_count: 45
 delete_recommendation_percent: 10
@@ -7,6 +7,9 @@ generated_date: 2026-09-30
 generated_time: 16:08:45
 github_origin: yes
 github_source_url: https://github.com/igrali/portable-exif-lib
+first_commit_date: 2013-04-02
+last_commit_date: 2026-09-29
+commit_count: 12
 ---
 
 ## Description
@@ -27,3 +30,11 @@ Doporučení ke smazání: **10 %** — nemazat bez rozmyslu — použitelná kn
 
 - 45 souborů reálného kódu knihovny, fork `igrali/portable-exif-lib` (původ známý, dá se získat znovu).
 - Není dostupná jako balíček z package manageru, proto se drží zdroják; mazání by mělo smysl až po nahrazení PackageReference.
+
+## Historie commitů
+
+- První commit: 2013-04-02
+- Poslední commit: 2026-09-29
+- Celkem commitů: 12
+
+- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
