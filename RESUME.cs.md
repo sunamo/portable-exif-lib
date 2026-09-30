@@ -1,9 +1,12 @@
 ---
-schema_version: 1
+schema_version: 3
 type: library
 file_count: 43
 delete_recommendation_percent: 10
 generated_date: 2026-09-29
+generated_time: 00:00:00
+github_origin: yes
+github_source_url: https://github.com/igrali/portable-exif-lib
 ---
 
 ## Description
