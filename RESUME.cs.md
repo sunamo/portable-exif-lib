@@ -1,15 +1,17 @@
 ---
-schema_version: 5
+schema_version: 6
 type: library
 file_count: 45
-delete_recommendation_percent: 10
-generated_date: 2026-09-30
-generated_time: 16:08:45
-github_origin: yes
+avg_lines_per_file: 151
+move_to_legacy_percent: 10
+generated_date: 2026-10-01
+generated_time: 16:40:31
 github_source_url: https://github.com/igrali/portable-exif-lib
-first_commit_date: 2013-04-02
-last_commit_date: 2026-09-29
-commit_count: 12
+last_build_ok: 
+last_build_date: 
+last_tests_run_date: 
+covered_lines: 
+total_lines: 
 ---
 
 ## Description
@@ -24,17 +26,14 @@ Staženo z GitHubu: **ano** — [igrali/portable-exif-lib](https://github.com/ig
 
 - Zdroj určen podle: `gh api repos/sunamo/portable-exif-lib` vrací `fork: true` s rodičem `igrali/portable-exif-lib`; remote `origin` míří na fork `sunamo/portable-exif-lib`; historie začíná commity autora `igrali` (2013-04-02, "Initial EXIF lib"); README odkazuje na původní ExifLib (CodeProject, Simon McKenzie).
 
-## Doporučení ke smazání
+## Doporučení přesunu do legacy
 
-Doporučení ke smazání: **10 %** — nemazat bez rozmyslu — použitelná knihovna EXIF, jen s vazbou na cizí původ
+Doporučení přesunu do sunamocz-legacy.visualstudio.com: **10 %** — nepřesouvat bez rozmyslu — použitelná knihovna EXIF, jen s vazbou na cizí původ
 
 - 45 souborů reálného kódu knihovny, fork `igrali/portable-exif-lib` (původ známý, dá se získat znovu).
 - Není dostupná jako balíček z package manageru, proto se drží zdroják; mazání by mělo smysl až po nahrazení PackageReference.
 
-## Historie commitů
+## Vazby na moje repa
 
-- První commit: 2013-04-02
-- Poslední commit: 2026-09-29
-- Celkem commitů: 12
-
-- Počítá se bez commitů, které jen generovaly RESUME.cs.md nebo README.md.
+- Submoduly: žádné
+- ProjectReference / PackageReference: žádné
