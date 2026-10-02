@@ -1,3 +1,9 @@
+## Short description
+
+Fork knihovny `igrali/portable-exif-lib` pro čtení Exif metadat z JPEG souborů, která je sama upravenou verzí ExifLib od Simona McKenzieho z CodeProject.
+Na větvi `claude` jsou vlastní úpravy (`ExifIds`, `ExifTag`, `JpegInfo`), přidaný wrapper `JpegExif.cs` nad `ExifReader` a projekt `ExifLib.standard.csproj` (netstandard2.0).
+Repo dál obsahuje původní testovací appky `WP8TestApp` a `Win8TestApp` z upstreamu.
+
 portable-exif-lib
 =================
 
