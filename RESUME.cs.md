@@ -1,17 +1,26 @@
 ---
-schema_version: 7
-type: library
+schema_version: 11
+type: forked-notmine-library
+category_override: none
 file_count: 45
+file_extensions: cs:15, png:11, xaml:5, csproj:4, md:2, noext:2, xml:2, appxmanifest:1, pfx:1, resx:1, yml:1
+file_extensions_updated: 2026-10-04
 avg_lines_per_file: 151
+total_lines: 3831
+metrics_lm: 2026-10-01 16:40:31
 move_to_legacy_percent: 10
-generated_date: 2026-10-01
-generated_time: 16:40:31
+description_updated: 2026-10-01
+links_updated: 2026-10-01
 github_source_url: https://github.com/igrali/portable-exif-lib
+origin_status: found
+origin_checked: 2026-10-01
+article_source_url: not run
+article_status: pending
+article_checked: not run
 last_build_ok: no
 last_build_date: 2026-10-02
-last_tests_run_date: n/a
-covered_lines: n/a
-total_lines: 3831
+last_tests_run_date: not run
+covered_lines: not run
 ---
 
 ## Description
