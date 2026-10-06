@@ -4,11 +4,13 @@ tasks:
   dev:
     desc: Preflight a build knihovny (Debug)
     cmds:
+      - powershell -Command "[Console]::Write([char]27 + ']0;dev' + [char]7)"
       - pwsh -NoProfile "E:\vs\Scripts_Projects\PowershellScripts\dev-preflight.ps1" -TaskName dev -WorkingDir "{{.USER_WORKING_DIR}}"
       - dotnet build ExifLib/ExifLib.standard.csproj
 
   rel:
     desc: Release build knihovny
     cmds:
+      - powershell -Command "[Console]::Write([char]27 + ']0;rel' + [char]7)"
       - pwsh -NoProfile "E:\vs\Scripts_Projects\PowershellScripts\set-task-title-and-clear.ps1" -TaskName rel
       - dotnet build -c Release ExifLib/ExifLib.standard.csproj
