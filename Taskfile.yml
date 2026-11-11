@@ -14,3 +14,7 @@ tasks:
       - powershell -Command "[Console]::Write([char]27 + ']0;rel' + [char]7)"
       - pwsh -NoProfile "E:\vs\Scripts_Projects\PowershellScripts\set-task-title-and-clear.ps1" -TaskName rel
       - dotnet build -c Release ExifLib/ExifLib.standard.csproj
+  pub:
+    desc: Publikace release verze do D:\SyncTrayzor\_sunamo (logika ve sdilenem skriptu)
+    cmds:
+      - pwsh -NoProfile -File "E:\vs\Scripts_Projects\PowershellScripts\publish-to-synctrayzor.ps1" -WorkingDir "{{.USER_WORKING_DIR}}"
